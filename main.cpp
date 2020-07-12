@@ -13,7 +13,16 @@ int main(int argc, char *argv[])
 	outtextxy(50,100,"Graphics in Dev-C++");// print text in window graphics
 //	khungChinh();
 	giaodiendau();
-	giaodiennhapthongtinqllh();
+//	char s[100];
+//	int k;
+//	ScannerName(s,100,320,300,1,k);
+//	giaodiennhapthongtinqllh();
+//	bangthongtinqllh(1);
+//	giaodiennhapthongtinqllh_SV();
+//	bangthongqllh_SV(1);
+giaodienthongtinqllh_Diem();
+ bangthongtinqllh_Diem(1);
+	
 	while(!kbhit()) delay(1);		// pause screen	
 	return 0;
 }

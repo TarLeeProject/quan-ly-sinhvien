@@ -22,7 +22,9 @@ int main(int argc, char *argv[])
 //	bangthongqllh_SV(1);
 //giaodienthongtinqllh_Diem();
 // bangthongtinqllh_Diem(1);
-	giaodiennhapthongtinqlltc_loptc();
+//	giaodiennhapthongtinqlltc_loptc();
+//	bangthongtinqltc_loptc(1);
+giaodiennhapthongtinqlltc_Sinhviendk();
 	while(!kbhit()) delay(1);		// pause screen	
 	return 0;
 }

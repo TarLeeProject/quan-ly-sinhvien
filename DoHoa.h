@@ -487,15 +487,27 @@ void giaodienthongtinqllh_Diem()
 }
 void bangthongtinqllh_Diem(int trang)
 {
-		int m[]={100,220,250,290,190};
+	int m[]={100,220,250,290,190};
 	char td[][50]={"STT","MA SINH VIEN","HO","TEN","DIEM TB"};
 	taobang(290,245,32,5,m,15,0,11,1100,trang,td);
 }
 void giaodiennhapthongtinqlltc_loptc()
 {
+	giaodiendau();
+	button(6,100,270,160,2,"QUAN LY LOP TC", 2,1,12);
+	
+	button(280,4,420,36,21,"Lop TC",2,1,12);
+	button(425,4,590,36,22,"Sinh Vien",2,1,15);
+	button(595,4,755,36,23,"Diem LTC",2,1,15);
+	
+	
+	
 	
 }
-void bangthongtin
+void bangthongtinqltc_loptc(int trang)
+{
+	
+}
 void Home(){
 	setbkcolor(11);
 	setcolor(COLOR(247,145,31));                   

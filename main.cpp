@@ -20,9 +20,9 @@ int main(int argc, char *argv[])
 //	bangthongtinqllh(1);
 //	giaodiennhapthongtinqllh_SV();
 //	bangthongqllh_SV(1);
-giaodienthongtinqllh_Diem();
- bangthongtinqllh_Diem(1);
-	
+//giaodienthongtinqllh_Diem();
+// bangthongtinqllh_Diem(1);
+	giaodiennhapthongtinqlltc_loptc();
 	while(!kbhit()) delay(1);		// pause screen	
 	return 0;
 }

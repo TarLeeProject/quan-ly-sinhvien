@@ -1,7 +1,7 @@
 #include <winbgim.h> 
 
-#include "LopTinChi.h"
-#include "DoHoa.h"
+#include "Run.h"
+
 
 int main(int argc, char *argv[])
 {
@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 //	char s[100];
 //	int k;
 //	ScannerName(s,100,320,300,1,k);
-//	giaodiennhapthongtinqllh();
-//	bangthongtinqllh(1);
+	giaodiennhapthongtinqllh();
+	bangthongtinqllh(1);
 //	giaodiennhapthongtinqllh_SV();
 //	bangthongqllh_SV(1);
 //giaodienthongtinqllh_Diem();
@@ -25,12 +25,14 @@ int main(int argc, char *argv[])
 //	giaodiennhapthongtinqlltc_loptc();
 //	bangthongtinqltc_loptc(1);
 //giaodiennhapthongtinqlltc_Sinhviendk();
+//bangthongtinqltc_Sinhvien(1);
 //giaodienqltc_Diem();
 //bangthongtinqltc_diem(1);
 //giaodienqlmh_qlmonhoc();
 //bangthongtinqlmh_qlmonhoc(1);
-giaodienqlmh_qldiem();
-bangthongtinqlmh_qldiem(1);
+//giaodienqlmh_qldiem();
+//bangthongtinqlmh_qldiem(1);
+
 	while(!kbhit()) delay(1);		// pause screen	
 	return 0;
 }

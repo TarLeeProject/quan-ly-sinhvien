@@ -1,6 +1,7 @@
 #pragma once
 #include<iostream>
 #include<string.h>
+#include <winbgim.h> 
 const int MAXDS =300;
 using namespace std;
 struct MonHoc{

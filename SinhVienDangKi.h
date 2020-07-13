@@ -1,3 +1,5 @@
+#include <winbgim.h> 
+#include <string.h> 
 struct SinhVienDK{
 	char MASV[12];
 	float DIEM;

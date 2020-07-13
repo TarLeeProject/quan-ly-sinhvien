@@ -24,7 +24,13 @@ int main(int argc, char *argv[])
 // bangthongtinqllh_Diem(1);
 //	giaodiennhapthongtinqlltc_loptc();
 //	bangthongtinqltc_loptc(1);
-giaodiennhapthongtinqlltc_Sinhviendk();
+//giaodiennhapthongtinqlltc_Sinhviendk();
+//giaodienqltc_Diem();
+//bangthongtinqltc_diem(1);
+//giaodienqlmh_qlmonhoc();
+//bangthongtinqlmh_qlmonhoc(1);
+giaodienqlmh_qldiem();
+bangthongtinqlmh_qldiem(1);
 	while(!kbhit()) delay(1);		// pause screen	
 	return 0;
 }

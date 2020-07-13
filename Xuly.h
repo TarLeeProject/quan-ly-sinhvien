@@ -1,3 +1,14 @@
+#include<iostream>
+#include<fstream>
+#include<ctime>
+#include<string.h>
+#include <winbgim.h> 
+#include "LopTinChi.h"
+#include "MonHoc.h"
+#include "SinhVien.h"
+//#include "SinhVienDangKi.h"
+#include "DoHoa.h"
+using namespace std;
 void ScannerString(char s[],int max, int px ,int py,int ID,int &IDnext)
 {
 	setcolor(0);

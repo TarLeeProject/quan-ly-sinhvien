@@ -1,5 +1,6 @@
 #pragma once
 #include "SinhVienDangKi.h"
+#include <winbgim.h> 
 struct LopTinChi{
 	int MALOPTC;
 	char MAMH[10];

@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string.h>
+#include <winbgim.h> 
 using namespace std;
 struct SinhVien{
 	char MASV[12];

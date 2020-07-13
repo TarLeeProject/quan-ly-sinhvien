@@ -583,53 +583,146 @@ void bangthongtinqltc_Sinhviendk(int trang)
 	char td[][50]={"STT","  MLTC","  MMH","NIEN KHOA","HOC KY"," NHOM"," SL SV"};
 	taobang(290,245,32,7,m,15,0,11,2200,trang,td);
 }
-//void giaodiennhapthongtinqlltc_Sinhvien()
-//{
-//	giaodiendau();
-//	button(6,100,270,160,2,"QUAN LY LOP TC", 2,1,12);
-//	
-//	button(280,4,420,36,21,"Lop TC",2,1,15);
-//	button(425,4,590,36,22,"SV DK TC",2,1,15);
-//	button(595,4,755,36,23,"Diem LTC",2,1,15);
-//	button(760,4,930,36,24,"Sinh Vien",2,1,12);
-//	
-//	button(285,40,425,72,222,"MA LTC:",2,9,15);
-//	taoo(425,40,675,72,222,15,0);
-//	
-//	button(690,40,840,72,222,"MA MH:",2,9,15);
-//	taoo(840,40,1100,72,222,15,0);
-//	
-//	button(285,80,455,112,223,"NIEN KHOA:",2,9,15);
-//	taoo(455,80,675,112,223,15,0);
-//	
-//	button(690,80,840,112,224,"HOC KY:",2,9,15);
-//	taoo(840,80,1100,112,224,15,0);
-//	
-//	button(1110,80,1220,112,225,"NHOM",2,9,15);
-//	taoo(1220,80,1340,112,225,15,0);
-//
-//	
-//    button(285,120,425,152,226,"MSSV:",2,9,15);
-//	taoo(425,120,675,152,226,15,0);
-//	
-//	button(690,120,840,152,227,"TEN:",2,9,15);
-//	taoo(840,120,1100,152,227,15,0);
-//    
-//    button(600,185,700,220,1110,"SAVE",2,2,0);
+void giaodienqltc_Diem()
+{
+	giaodiendau();
+	button(6,100,270,160,2,"QUAN LY LOP TC", 2,1,12);
+	
+	button(280,4,420,36,21,"Lop TC",2,1,15);
+	button(425,4,590,36,22,"SV DK TC",2,1,15);
+	button(595,4,755,36,23,"Diem LTC",2,1,12);
+	button(760,4,930,36,24,"Sinh Vien",2,1,15);
+	
+	button(285,40,425,72,232,"MA LTC:",2,9,15);
+	taoo(425,40,675,72,232,15,0);
+	
+	button(690,40,840,72,232,"MA MH:",2,9,15);
+	taoo(840,40,1100,72,232,15,0);
+	
+	button(285,80,455,112,233,"NIEN KHOA:",2,9,15);
+	taoo(455,80,675,112,233,15,0);
+	
+	button(690,80,840,112,234,"HOC KY:",2,9,15);
+	taoo(840,80,1100,112,234,15,0);
+	
+	button(1110,80,1220,112,235,"NHOM",2,9,15);
+	taoo(1220,80,1340,112,235,15,0);
+
+    button(600,185,700,220,1110,"SAVE",2,2,0);
 //	button(710,185,810,220,1111," HUY",2,2,0);
 //	button(820,185,920,220,1112," NEW",2,2,0);
 //	button(925,185,1095,220,1113," CHI TIET",2,2,0);
-//	
-//	button(325,635,400,670,1114,"pver",2,1,3);
-//	button(1255,635,1330,670,1115,"next",2,1,3); 	
-//}
-//void bangthongtinqltc_Sinhvien(int trang)
-//{
-//	int m[]={70,185,185,160,150,150,150};
-//	char td[][50]={"STT","  MLTC","  MMH","NIEN KHOA","HOC KY"," NHOM"," SL SV"};
-//	taobang(290,245,32,7,m,15,0,11,2200,trang,td);
-//}
- 
+	
+	button(325,635,400,670,1114,"pver",2,1,3);
+	button(1255,635,1330,670,1115,"next",2,1,3); 	
+}
+void bangthongtinqltc_diem(int trang)
+{
+	int m[]={100,220,250,290,190};
+	char td[][50]={"STT","MA SINH VIEN","HO","TEN","DIEM"};
+	taobang(290,245,32,5,m,15,0,11,2300,trang,td);
+}
+
+void giaodiennhapthongtinqlltc_Sinhvien()
+{
+	giaodiendau();
+	button(6,100,270,160,2,"QUAN LY LOP TC", 2,1,12);
+	
+	button(280,4,420,36,21,"Lop TC",2,1,15);
+	button(425,4,590,36,22,"SV DK TC",2,1,15);
+	button(595,4,755,36,23,"Diem LTC",2,1,15);
+	button(760,4,930,36,24,"Sinh Vien",2,1,12);
+	
+	button(285,40,425,72,241,"MA LTC:",2,9,15);
+	taoo(425,40,675,72,241,15,0);
+	
+	button(690,40,840,72,242,"MA MH:",2,9,15);
+	taoo(840,40,1100,72,242,15,0);
+	
+	button(285,80,455,112,243,"NIEN KHOA:",2,9,15);
+	taoo(455,80,675,112,243,15,0);
+	
+	button(690,80,840,112,244,"HOC KY:",2,9,15);
+	taoo(840,80,1100,112,244,15,0);
+	
+	button(1110,80,1220,112,245,"NHOM",2,9,15);
+	taoo(1220,80,1340,112,245,15,0);
+		
+	button(325,635,400,670,1114,"pver",2,1,3);
+	button(1255,635,1330,670,1115,"next",2,1,3); 	
+}
+// coi lai*@@*
+
+void bangthongtinqltc_Sinhvien(int trang)
+{
+    int m[]={100,220,250,290,190};
+	char td[][50]={"STT","MA SINH VIEN","HO","TEN","DIEM"};
+	taobang(290,245,32,5,m,15,0,11,2400,trang,td);
+}
+ void giaodienqlmh_qlmonhoc()
+ {
+ 		giaodiendau();
+ 	button(6,170,270,230,3,"QUAN LY MON HOC", 2,1,12);
+	button(280,4,420,36,31,"Mon Hoc",2,1,12);
+	button(425,4,590,36,32,"Diem",2,1,15);
+
+	button(285,40,425,72,311,"MA MH:",2,9,15);
+	taoo(425,40,675,72,311,15,0);
+	
+	button(690,40,840,72,312,"TEN MH:",2,9,15);
+	taoo(840,40,1100,72,312,15,0);
+	
+	button(285,80,455,112,313,"NIEN KHOA:",2,9,15);
+	taoo(455,80,675,112,313,15,0);
+	
+	button(690,80,840,112,314,"HOC KY:",2,9,15);
+	taoo(840,80,1100,112,314,15,0);
+	
+	button(600,185,700,220,1110,"SAVE",2,2,0);
+	button(710,185,810,220,1111," HUY",2,2,0);
+	button(820,185,920,220,1112," NEW",2,2,0);
+//	button(925,185,1095,220,1113," CHI TIET",2,2,0);
+	button(325,635,400,670,1114,"pver",2,1,3);
+	button(1255,635,1330,670,1115,"next",2,1,3); 	
+ }
+ void bangthongtinqlmh_qlmonhoc(int trang)
+ {
+ 	 int m[]={100,220,350,260,120};
+	char td[][50]={"STT","MA MON HOC","TEN MH","NIEN KHOA","HOC KY"};
+	taobang(290,245,32,5,m,15,0,11,3100,trang,td);
+ }
+ void giaodienqlmh_qldiem()
+ {
+ 	giaodiendau();
+ 	button(6,170,270,230,3,"QUAN LY MON HOC", 2,1,12);
+	button(280,4,420,36,31,"Mon Hoc",2,1,15);
+	button(425,4,590,36,32,"Diem",2,1,12);
+
+	button(285,40,425,72,321,"MA MH:",2,9,15);
+	taoo(425,40,675,72,321,15,0);
+	
+	button(690,40,840,72,322,"TEN MH:",2,9,15);
+	taoo(840,40,1100,72,322,15,0);
+	
+	button(285,80,455,112,323,"NIEN KHOA:",2,9,15);
+	taoo(455,80,675,112,323,15,0);
+	
+	button(690,80,840,112,324,"HOC KY:",2,9,15);
+	taoo(840,80,1100,112,324,15,0);
+	
+//	button(600,185,700,220,1110,"SAVE",2,2,0);
+//	button(710,185,810,220,1111," HUY",2,2,0);
+//	button(820,185,920,220,1112," NEW",2,2,0);
+//	button(925,185,1095,220,1113," CHI TIET",2,2,0);
+	button(325,635,400,670,1114,"pver",2,1,3);
+	button(1255,635,1330,670,1115,"next",2,1,3); 	
+ }
+ void bangthongtinqlmh_qldiem(int trang)
+ {
+ 	 int m[]={100,220,250,290,190};
+	char td[][50]={"STT","MA SINH VIEN","HO","TEN","DIEM"};
+	taobang(290,245,32,5,m,15,0,11,3200,trang,td);
+ }
 void Home(){
 	setbkcolor(11);
 	setcolor(COLOR(247,145,31));                   
